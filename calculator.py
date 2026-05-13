@@ -1,4 +1,4 @@
-from calculator import add, sub, multiply
+from calculator import add, sub, truncate, multiply, modulo
 
 def add(a, b):
     return a + b
