@@ -1,4 +1,4 @@
-from calculator import add, sub, truncate, multiply, modulo
+from calculator import add, sub, truncate, multiply, modulo, divide
 
 
 def test_add():
@@ -14,6 +14,10 @@ def test_truncate():
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
+
+def test_divide():
+    assert multiply(6, 2) == 3
+    assert multiply(8, 4) == 2
 
 def test_modulo():
     assert modulo(10, 3) == 1
