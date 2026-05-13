@@ -11,7 +11,6 @@ def test_sub():
 def test_truncate():
     assert truncate(3.9) == 3
 
-
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
