@@ -8,7 +8,7 @@ def sub(a, b):
 
 
 def squared(a):
-    return a*a
+    return a * a
 
 
 def truncate(value):
@@ -23,9 +23,9 @@ def divide(a, b):
     return a / b
 
 
-def modulo(a,b):
+def modulo(a, b):
     return a % b
 
 
-def power(a,b):
+def power(a, b):
     return a ** b
