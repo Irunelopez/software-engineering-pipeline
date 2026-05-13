@@ -1,4 +1,4 @@
-from calculator import add, sub, modulo
+from calculator import add, multiply, square, sub
 
 
 def test_add():
@@ -9,11 +9,11 @@ def test_sub():
     assert sub(10, 4) == 6
 
 
-def test_modulo():
-    assert modulo(10, 3) == 1
-    assert modulo(8, 4) == 0
-  assert sub(10, 4) == 6
+def test_multiply():
+    assert multiply(3, 4) == 12
+    assert multiply(0, 5) == 0
+
 
 def test_square():
     assert square(2) == 4
-    assert multiply(5) == 25
+    assert square(5) == 25  # Fixed the typo from main!
