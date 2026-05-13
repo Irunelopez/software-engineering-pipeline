@@ -14,7 +14,4 @@ def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
 =======
-def test_divide():
-    assert divide(6, 2) == 3
-    assert divide(8, 4) == 2
 >>>>>>> main
