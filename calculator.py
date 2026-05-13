@@ -1,3 +1,5 @@
+from calculator import add, sub, multiply
+
 def add(a, b):
     return a + b
 
