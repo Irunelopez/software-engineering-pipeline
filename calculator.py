@@ -8,5 +8,9 @@ def sub(a, b):
 
 def truncate(value):
     return int(value)
+    
 def multiply(a, b):
     return a * b
+
+def modulo(a,b):
+    return a % b
