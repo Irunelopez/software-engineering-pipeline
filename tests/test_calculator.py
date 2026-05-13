@@ -1,4 +1,4 @@
-from calculator import add, sub
+from calculator import add, sub, truncate
 
 
 def test_add():
@@ -7,5 +7,8 @@ def test_add():
 
 def test_sub():
     assert sub(10, 4) == 6
+
+def test_truncate();
+    assert truncate(3.9) == 3
 
 
