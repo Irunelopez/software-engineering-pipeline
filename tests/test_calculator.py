@@ -14,6 +14,6 @@ def test_multiply():
     assert multiply(0, 5) == 0
 
 
-def test_square():
-    assert square(2) == 4
-    assert square(5) == 25  # Fixed the typo from main!
+def test_divide():
+  assert divide(6, 3) == 2
+  assert divide(8, 2) == 4
