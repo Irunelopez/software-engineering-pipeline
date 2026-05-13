@@ -1,4 +1,4 @@
-from calculator import add, sub, divide
+from calculator import add, sub, multiply, divide
 
 
 def test_add():
@@ -15,3 +15,7 @@ def test_multiply():
     assert multiply(0, 5) == 0
 =======
 >>>>>>> main
+
+def test_divide():
+    assert multiply(6, 2) == 3
+    assert multiply(8, 4) == 2
