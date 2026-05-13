@@ -1,4 +1,4 @@
-from calculator import add, sub, truncate, multiply, modulo, divide
+from calculator import add, sub, truncate, multiply, modulo, divide, squared
 
 
 def test_add():
@@ -11,6 +11,9 @@ def test_sub():
 def test_truncate():
     assert truncate(3.9) == 3
 
+def test_sqaured():
+    assert squared(2) == 4
+    
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
