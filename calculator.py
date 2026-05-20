@@ -29,3 +29,6 @@ def modulo(a, b):
 
 def power(a, b):
     return a ** b
+
+def absVal(value):
+    return abs(value)
