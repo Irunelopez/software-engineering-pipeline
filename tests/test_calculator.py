@@ -35,3 +35,7 @@ def test_modulo():
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 0) == 1
+
+def absVal():
+    assert absVal(2) == 2
+    assert absVal(-2) == 2
